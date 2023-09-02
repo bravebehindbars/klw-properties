@@ -1,0 +1,480 @@
+
+body{ 
+ 
+  font-family: 'Roboto';
+  color: #2dfd03;
+     /* change font here for body text */
+
+      /*background color of website */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba())), url("KlW Properties");
+    }
+
+body{ 
+  background-image: url('image20.png');
+  background-color: dark;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: all; 
+
+}
+
+h1{
+  color: #8c07fa;
+  font-size: 40px;    
+}
+
+h7{
+  color: #2dfd03;
+  font-size: 25px; 
+}
+
+
+#content: {
+  display: grid;
+  align-content: end;
+}
+
+
+nav{
+  width: 80%;
+  background: #2dfd03
+  overflow: no auto flow;
+}
+
+ul{
+padding: 0;
+margin: 000 100px;
+list-style: none;
+}
+
+li{
+float:left;
+
+}
+
+.Navbar-logo.png {
+  position: absolute;
+  margin-top: 30px;
+  margin-center: 15px;  
+}
+
+nav a{
+width: 90px;
+display: block;
+padding: 15px 15px;
+text-decoration: none;
+font-family: arial;
+color: #2dfd03;
+text-align: center;
+}
+
+
+nav a:hover{
+background-color: #8c07fa;
+transition: 0.5s;
+text-transform: uppercase;
+
+}
+
+
+div {
+  background-color:none;
+  padding-left:0px;
+  padding-right:0px;
+  font-size: 20px;
+  font-family: 'Roboto'; 
+  color: #2dfd03;
+
+}
+
+.d-flex {
+  display: flex!important;
+  color: #ebf807;
+}
+
+
+              = /* attributes for what the paragraph text should look like */
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 2.0;
+    color: #2dfd03;
+   font-size: 50px
+   position: center;
+}
+
+h5 p { 
+  color: #8c07fa;
+  font-size: 20px;  
+}
+
+
+.text-faded {
+  color: rgba(140,7,250);
+}
+
+.site-heading { /* attributes for site heading */
+  margin-top: 0rem; 
+  margin-bottom: 0rem;
+  line-height: 2.5;
+  font-family: 'Raleway';
+  color: #0407fc;
+  font-size: 4rem;
+}
+
+.site-heading .site-heading-upper {
+  display: block;
+  font-size: 4rem;
+  font-weight: 200;
+  color: #2dfd03; /* color of upper header text */
+}
+
+.site-heading .site-heading-lower {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #ebf807; /* color of lower header text */
+  text-transform: uppercase; /* capitalize header text */
+}
+
+
+/* change content block background color; currently tan */
+.section-heading {
+  text-transform: uppercase;
+  color:#2dfd03;
+}
+
+/* color and text attributes of CTA boxes that align left*/
+.section-heading .section-heading-lower{
+  display: block;
+  font-size: 3rem;
+  color: #8c07fa; /* color of lower header text */
+  font-weight: 600;
+}
+.btn-xl {
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(5,246,246);
+}
+
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  color: #05f6f6;
+}
+
+
+.cta .cta-inner:before {
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  color:#05f6f6;
+}
+
+@media (min-width: 992px) {
+  .about-heading .about-heading-img {
+    position: relative;
+    z-index: 0;
+
+  }
+
+  .about-heading .about-heading-content {
+    margin-top: -5rem;
+    position: relative;
+    z-index: 1;
+    color: #05f6f6;
+  }
+
+@media (min-width: 992px) {
+  .product-item .product-item-title {
+    position: relative;    
+    padding-top: 3rem;
+    z-index: 1;
+    margin-bottom: -8rem; /* changes the position of the header text box for product images */
+  }
+
+  .product-item .product-item-img {
+    position: relative;
+    z-index: 0;
+    max-width: 60vw;
+    color: #05f6f6
+  }
+
+  .product-item .product-item-description {
+    position: relative;
+    padding-bottom: 3rem;
+    z-index: 1;
+    margin-top: -5rem; /* changes the position of the description for product images */
+    max-width: 50vw;
+    color: #05f6f6
+  }
+
+
+
+.team-bio-heading {
+  display: block;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #05f6f6; /* color of lower header text */
+  font-weight: 600;
+}
+
+.team-bio-img {
+  width: 40%;
+  height: auto;
+  padding-bottom: 1.5rem;
+}
+ .footer {
+  background-color: #010800; /* color for the bottom of the web app */
+}
+
+.text-primary {
+  color: #05f6f6 !important;
+}
+
+.bg-primary {
+  background-color: #8c07fa !important;
+}
+
+
+.font-weight-light {
+  font-weight: 100 !important;
+}
+
+
+@import url('KlW/Properties');
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: #11a5df2b; */
+    width: 80vw;
+    padding: 15px;
+}
+
+h2 {
+    color: #2dfd03;
+     font-size: 50px;
+}
+
+.contact-info {
+    display: flex;
+    width:40%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    box-shadow: 0 0 15px grey;
+    text-align: center;
+    color: #010800;
+    border-radius: 5px;
+    padding: 7px;
+
+}
+
+.details {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background: #edfefe;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    box-shadow: 0 0 15px rgb(140,7,250);
+}
+
+.contact-items{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    /* margin-left: 5px; */
+}
+
+.contact-items-wrapper{
+    padding: 25px;
+}
+
+
+#btn-3 {
+    appearance: auto;
+  
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #05f6f6;
+    writing-mode: horizontal-tb !important;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #ebf807;
+    border-image: initial;
+}
+
+
+
+.details h3 {
+    text-align: center;
+    color:#010800
+}
+
+.details p {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.details p a{
+color: #8c07fa;
+}
+
+.details p a:hover{
+color: rgb(140,7,250);
+}
+
+.material-icons{
+    width: 12px;
+    margin: 5px;
+}
+
+input {
+    margin: 5px 15px;
+    height: 25px;
+}
+
+textarea {
+    height: 150px;
+    margin: 5px 15px;
+}
+
+#btn-1 {
+    margin: 5px 15px;
+    width: 80px;
+    background: none;
+    padding: 3px 10px;
+    border: 0;
+    border-radius: 5px;
+    color: #2dfd03;
+    font-size: 15px;
+}
+             
+@media screen and (max-width:780px) {
+}
+ .contact-info {
+    flex-direction: column;
+}
+#btn-1{  
+ background-color: none;
+ border: none;
+}
+form{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.details{
+    width: 100%; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+@import url('jotform.com');
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+
+
+h6{
+  color: #2dfd03;
+   font-size: 30px;
+}
+
+
+
+
+#btn-2{
+  background: none;
+  border:none;
+}
+
+ @import url('Residential-Lease-Agreement-Template.pdf');{
+  
+ }
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+
+
+
+#btn-1 {
+    appearance: auto;
+    text-rendering: auto;
+    color: none;
+    text-transform: none;
+    text-indent: 0px;
+    display: auto;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: none;
+    background-color:none;
+    writing-mode: horizontal-tb !important;
+    margin: 0em;
+    padding-block: 0px;
+    padding-inline: 100px;
+    border-width: 0px;
+    border-style: outset;
+    border-color: none;
+    border-image: initial;
+
+
+
+
+
+
+
+
+
+
